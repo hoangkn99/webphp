@@ -1,0 +1,52 @@
+.Top {
+    background:#F4FBEB;
+    height:100px;
+}
+.Top-content {
+    display: flex;
+    height:100%;
+}
+.Top-content-logo {
+    width:422px;
+}
+.Top-content-infor {
+    width:529px;
+}
+.Top-content-login {
+    width:529px;
+}
+
+.Top-content-login table {
+    width:100%;
+}
+.Top-content-login input {
+    border:1px solid #006633;
+}
+.Top-content-payment {
+    width:529px;
+}
+.Nav {
+    background:#CCFFCC;
+    display:flex;
+    height:23px;
+}
+.Nav-menu {
+    display:flex;
+    flex-grow:1;
+}
+.Nav-menu-left {
+    color:#006633;
+    font-weight: bold;
+    width:422px;
+
+}
+.Nav-menu-right {
+   width:100%;
+}
+.Nav-menu-right a {
+    color:#006633;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+    width:24%;
+}

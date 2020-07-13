@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+}
+body {
+    padding:5px;
+    position: relative;
+    min-height: 100%;
+  
+}
+.Green-color {
+    color:#009933;
+}
+.Bold {
+    font-weight: bold;
+}
+.Text-center {
+    text-align: center;
+}
+.Button {
+    border: 1px solid #000000;
+    font-size:13px;
+}
+.buttontimkiem {
+    margin-left:240px;
+    padding:5px;
+}
+.footer {
+    margin-top:50px;
+    background: #CCFFCC;
+    bottom: 0;
+    display:flex;
+    height:55px;
+    position: absolute;
+    padding:5px;
+    width:99%;
+    
+}
+.footer-left {
+    color:blue;
+    font-size:13px;
+    width:422px;
+}
+.footer-right {
+    font-size:15px;
+    padding-bottom:10px 0;
+    margin-left: auto;
+    width:482px;
+}
+.Main {
+    
+    display:flex;
+    height:100%;
+    margin-bottom:55px;
+}
+.Main-left {
+    
+    width:422px;
+    background:#F4FBEB;
+}
+.Main-left a {
+    color:#006633;
+}
+.Main-right {
+    
+    width:1587px;
+   
+}
+.Main-right-product {
+    color:#006633;
+    display:flex;
+    font-weight: bold;
+    width:100%;
+    flex-wrap: wrap;
+}
+.Main-right-product-content {
+    color:#006633;
+    width:200px;
+    height:300px;
+    border: 1px solid #006633; 
+    text-align:center;
+    margin:10px;
+    font-weight: bold;
+}
+.Main-right-product-content a{
+    color:#006633;
+    font-weight: bold;
+}
+/* CSS cho trang tìm hoa*/
+.Main-right-form {
+    color:#006633;
+}
+.Main-right-form input{
+    border: 1px solid #006633;
+    padding:5px;
+    height: 25px;
+    margin: 5px 0;
+}
+.Main-right-form table{
+    margin:0 auto;
+}
+.Main-right-form p{
+    width: 25%;
+    height: 25px;
+    margin: 5px 0;
+}
+/* Đặt CSS cho trang themhoa*/
+.Main-right-form textarea{
+    border: 1px solid #006633;
+
+}
+.Main-right-form select {
+    border: 1px solid #006633;
+}

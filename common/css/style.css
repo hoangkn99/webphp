@@ -1,0 +1,90 @@
+/* Common */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+input, select, textarea {
+  background: transparent;
+  outline: none;
+}
+
+.only-pc {
+  display: block;
+}
+
+.only-sp {
+  display: none ;
+}
+
+@media screen and (max-width: 1024px) {
+  .only-pc {
+    display: none !important;
+  }
+  .only-sp {
+    display: block !important;
+  }
+}
+
+.Responsive {
+  margin: 0 auto;
+  max-width: 1240px;
+  width: 100%;
+}
+
+.Noscroll {
+  overflow: hidden;
+}
+
+.Notification {
+  border: 1px solid #28a745;
+  padding: 10px;
+  border-radius: 5px;
+  background: #d1ffdc;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  transition: transform ease 500ms;
+  transform: translateX(400px);
+}
+
+.Notification[data-error='0'] {
+  border: 1px solid #dc3545;
+  background: #efe2e4;
+}
+
+.Notification--active {
+  transform: translateX(0);
+}
+.Noscroll {
+  overflow: hidden;
+}
